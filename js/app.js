@@ -1,10 +1,15 @@
 function isWindy(speed) {
     if (speed > 5) {
-        alert 'It is windy';
+        return true;
     } else {
-        alert 'It is not windy';
+        return false;
     }
 }
 
-isWindy(6);
-isWindy(0);
+let speed = 6
+
+if (isWindy(speed) === true) {
+    alert('It is windy');
+} else {
+    alert('It is not windy');
+}
