@@ -8,6 +8,8 @@
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Annie+Use+Your+Telescope|Architects+Daughter|Coming+Soon|Gaegu|Gamja+Flower|Just+Another+Hand|Loved+by+the+King|Nanum+Pen+Script|Pangolin|Patrick+Hand+SC|Sue+Ellen+Francisco|Swanky+and+Moo+Moo" rel="stylesheet">
+
     <link rel="stylesheet" href="stylesheets/app.css">
     <script src="js/app.js"></script>
 </head>    
@@ -18,53 +20,82 @@
                 <ul class="nav nav-pills">
                     <li class="nav-item dropdown">
                       <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                            <img src="images/icons/sketchy_adjust.svg" alt="Options">
+                            <img src="images/icons/sketchy_sort.svg" alt="Menu" class="menu">
                       </a>
                       <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
+                        <a class="dropdown-item" href="#">
+                            <img src="images/icons/sketchy_adjust.svg" alt="Definitions" class="img-responsive menu_item">
+                            Definitions
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <img src="images/icons/sketchy_ask.svg" alt="FAQ" class="img-responsive menu_item">
+                            FAQ
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <img src="images/icons/sketchy_send.svg" alt="Contact Us" class="img-responsive menu_item">
+                            Contact Us
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <img src="images/icons/sketchy_pay.svg" alt="Donate to Us" class="img-responsive menu_item">
+                            Donate to Us
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <img src="images/icons/sketchy_share.svg" alt="Share Us" class="img-responsive menu_item">
+                            Share Us
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <img src="images/icons/sketchy_love.svg" alt="Love Us" class="img-responsive menu_item">
+                            Love Us
+                        </a>
                       </div>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="row">
-            <div class="offset-md-5 col-md-2">
-                <img src="images/icons/sketchy_shine.svg" alt="Today">
+            <div class="offset-md-1 col-md-3 todays_calendar">
+                <img src="images/icons/sketchy_locate.svg" alt="Current Location" class="img-responsive todays_calendar">
+                Lisbon
+                <div class="w-100"></div>
+                <img src="images/icons/sketchy_schedule.svg" alt="Today" class="img-responsive todays_calendar">
+                Thursday
                 <br>
-                <img src="images/icons/sketchy_warm.svg" alt="temperature" align="left">
-                <p class="temperature">
+                25th October 2018
+                <br>
+                20:00
+                </div>
+            <div class="col-md-4">
+                <img src="images/icons/sketchy_sleep.svg" alt="Today" class="img-responsive today">
+                <br>
+                <img src="images/icons/sketchy_warm.svg" alt="temperature" align="left" class="img-responsive todays_temperature">
+                <p class="todays_temperature">
                     19ºC
                 </p>
             </div>
-            <div class="col-md-5">
-                <img src="images/icons/sketchy_precipitate.svg" alt="Precipitation">
+            <div class="col-md-3 todays_values">
+                <img src="images/icons/sketchy_precipitate.svg" alt="Precipitation" class="img-responsive todays_values">
                 Precipitation: 0%
                 <div class="w-100"></div>
-                <img src="images/icons/sketchy_cry.svg" alt="Humidity">
+                <img src="images/icons/sketchy_cry.svg" alt="Humidity" class="img-responsive todays_values">
                 Humidity: 84%
                 <div class="w-100"></div>
-                <img src="images/icons/sketchy_fall.svg" alt="Wind">
+                <img src="images/icons/sketchy_fall.svg" alt="Wind" class="img-responsive todays_values">
                 Wind: 16Km/h
             </div>
         </div>
         <div class="row">
             <div class="offset-md-4 col-md-4">
-            <img src="images/dividers/divider2.svg" alt="Good Looking Divider" align="center">
+            <img src="images/dividers/divider2.svg" alt="Good Looking Divider" class="img-responsive">
             </div>
         </div>
-        <div class="row">
+        <div class="row week_forecast">
             <div class="col-md-2">
                 <p>
                     Tomorrow
                 </p>
+                <img src="images/icons/sketchy_shade.svg" alt="Tomorrow" class="img-responsive week_forecast">
                 <br>
-                <img src="images/icons/sketchy_shade.svg" alt="Tomorrow">
-                <br>
-                <img src="images/icons/sketchy_warm.svg" alt="temperature" align="left">
+                <img src="images/icons/sketchy_warm.svg" alt="temperature" align="left" class="img-responsive week_forecast_temperature">
                 <p class="temperature">
                     18ºC
                 </p>
@@ -73,10 +104,9 @@
                 <p>
                     Saturday
                 </p>
+                <img src="images/icons/sketchy_precipitate.svg" alt="Saturday" class="img-responsive week_forecast">
                 <br>
-                <img src="images/icons/sketchy_precipitate.svg" alt="Saturday">
-                <br>
-                <img src="images/icons/sketchy_warm.svg" alt="temperature" align="left">
+                <img src="images/icons/sketchy_warm.svg" alt="temperature" align="left" class="img-responsive week_forecast_temperature">
                 <p class="temperature">
                     20ºC
                 </p>
@@ -85,10 +115,9 @@
                 <p>
                     Sunday
                 </p>
+                <img src="images/icons/sketchy_thunder.svg" alt="Sunday" class="img-responsive week_forecast">
                 <br>
-                <img src="images/icons/sketchy_thunder.svg" alt="Sunday">
-                <br>
-                <img src="images/icons/sketchy_warm.svg" alt="temperature" align="left">
+                <img src="images/icons/sketchy_warm.svg" alt="temperature" align="left" class="img-responsive week_forecast_temperature">
                 <p class="temperature">
                     22ºC
                 </p>
@@ -97,10 +126,9 @@
                 <p>
                     Monday
                 </p>
+                <img src="images/icons/sketchy_shine.svg" alt="Monday" class="img-responsive week_forecast">
                 <br>
-                <img src="images/icons/sketchy_shine.svg" alt="Monday">
-                <br>
-                <img src="images/icons/sketchy_warm.svg" alt="temperature" align="left">
+                <img src="images/icons/sketchy_warm.svg" alt="temperature" align="left" class="img-responsive week_forecast_temperature">
                 <p class="temperature">
                     21ºC
                 </p>
@@ -109,10 +137,9 @@
                 <p>
                     Tuesday
                 </p>
+                <img src="images/icons/sketchy_shade.svg" alt="Tuesday" class="img-responsive week_forecast">
                 <br>
-                <img src="images/icons/sketchy_shade.svg" alt="Tuesday">
-                <br>
-                <img src="images/icons/sketchy_warm.svg" alt="temperature" align="left">
+                <img src="images/icons/sketchy_warm.svg" alt="temperature" align="left" class="img-responsive week_forecast_temperature">
                 <p class="temperature">
                     16ºC
                 </p>
@@ -121,30 +148,27 @@
                 <p>
                     Wednesday
                 </p>
+                <img src="images/icons/sketchy_snow.svg" alt="Wednesday" class="img-responsive week_forecast">
                 <br>
-                <img src="images/icons/sketchy_snow.svg" alt="Wednesday">
-                <br>
-                <img src="images/icons/sketchy_warm.svg" alt="temperature" align="left">
+                <img src="images/icons/sketchy_warm.svg" alt="temperature" align="left" class="img-responsive week_forecast_temperature">
                 <p class="temperature">
                     2ºC
                 </p>
             </div>
         </div>
         <div class="row">
-            <div class="offset-md-4 col-md-4"
-            <br>
-            <img src="images/dividers/divider2.svg" alt="Good Looking Divider">
-            <br>
+            <div class="offset-md-4 col-md-4">
+            <img src="images/dividers/divider2.svg" alt="Good Looking Divider" class="img-responsive">
             </div>
         </div>
         <div class="row">
             <div class="col-md-1">
-                <img src="images/icons/sketchy_tweet.svg" alt="Local Tweeter" align="left">
+                <img src="images/icons/sketchy_tweet.svg" alt="Local Tweeter" align="left" class="img-responsive social_media">
             </div>
             <div class="offset-md-8 col-md-3">
-                <img src="images/icons/sketchy_develop.svg" alt="Local Instagram" align="left">
-                <img src="images/icons/sketchy_record.svg" alt="Local Spotify" align="center">
-                <img src="images/icons/sketchy_signal.svg" alt="Local News">
+                <img src="images/icons/sketchy_develop.svg" alt="Local Instagram" align="left" class="img-responsive social_media">
+                <img src="images/icons/sketchy_record.svg" alt="Local Spotify" align="center" class="img-responsive social_media">
+                <img src="images/icons/sketchy_signal.svg" alt="Local News" class="img-responsive social_media">
             </div>
         </div>
     </div>

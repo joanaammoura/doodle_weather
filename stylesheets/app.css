@@ -1,3 +1,33 @@
-.center {
-    object-position: 50% 50%;
-} 
+body {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 175%;
+}
+
+.dropdown-item {
+    font-size: 150%
+}
+
+.week_forecast {
+    text-align: center;
+}
+
+img.menu, img.todays_temperature, img.week_forecast_temperature, img.social_media {
+    width: 50px;
+    height: 50px;
+}
+
+img.menu_item, img.todays_calendar, img.todays_values {
+    width: 30px;
+    height: 30px;
+}
+
+img.today {
+    width: 200px;
+    height: 200px;
+}
+
+img.week_forecast {
+    width: 100px;
+    height: 100px;
+}
