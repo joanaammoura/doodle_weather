@@ -1,4 +1,4 @@
-function isWindy(speed) {
+// function isWindy(speed) {
     if (speed > 5) {
         return true;
     } else {
