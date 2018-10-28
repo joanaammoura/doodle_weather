@@ -5,7 +5,15 @@ body {
 }
 
 .dropdown-item {
-    font-size: 150%
+    font-size: 150%;
+}
+
+.todays_temperature {
+    font-size: 125%;
+}
+
+.social_media {
+    font-size: 80%;
 }
 
 .week_forecast {
