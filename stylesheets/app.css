@@ -8,6 +8,10 @@ body {
     font-size: 150%;
 }
 
+.logo {
+    font-size: 250%;
+}
+
 .todays_temperature {
     font-size: 125%;
 }
@@ -35,7 +39,24 @@ img.today {
     height: 200px;
 }
 
-img.week_forecast {
+img.week_forecast, img.logo {
     width: 100px;
     height: 100px;
+}
+
+.spacing-1 {
+    padding-top: 3%;
+}
+
+.spacing-2 {
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.spacing-3 {
+    padding-top: 50%;
+}
+
+.spacing-4 {
+    padding-top: 30%;
 }
