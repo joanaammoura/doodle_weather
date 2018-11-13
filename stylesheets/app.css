@@ -4,12 +4,23 @@ body {
     font-size: 175%;
 }
 
+.bg {
+    background-image: url("images/7544_crumpled_paper.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 .dropdown-item {
     font-size: 150%;
 }
 
 .logo {
     font-size: 250%;
+}
+
+.refresh {
+    background-image: url("images/icons/sketchy_redo.svg");
 }
 
 .todays_temperature {
@@ -24,7 +35,7 @@ body {
     text-align: center;
 }
 
-img.menu, img.todays_temperature, img.week_forecast_temperature, img.social_media {
+.menu, img.todays_temperature, img.week_forecast_temperature, img.social_media {
     width: 50px;
     height: 50px;
 }

@@ -1,15 +1,15 @@
-// function isWindy(speed) {
-    if (speed > 5) {
-        return true;
-    } else {
-        return false;
-    }
-}
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min;
+  }
 
-let speed = 6
+let temperatureElements = document.querySelectorAll('.temperature');
 
-if (isWindy(speed) === true) {
-    alert('It is windy');
-} else {
-    alert('It is not windy');
-}
+let buttonRefresh = document.querySelectorAll('#refresh');
+
+buttonRefresh.addEventListener('click', function () { 
+    temperatureElements.forEach(function(getRandomInt, index) {
+    temperatureElements.innerHTML = getRandomInt(-20, 50) + ' ºC');
+    });
+});

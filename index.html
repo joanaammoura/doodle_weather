@@ -1,4 +1,5 @@
 <html>
+
 <head>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -12,32 +13,30 @@
 
     <link rel="stylesheet" href="stylesheets/app.css">
     <script src="js/app.js"></script>
-</head>    
+</head> 
+
 <body>
+
     <div class="container">
         <div class="row">
             <div class="col-md-1">
                 <ul class="nav nav-pills">
                     <li class="nav-item dropdown">
                       <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                            <img src="images/icons/sketchy_sort.svg" alt="Menu" class="menu">
+                            <img src="images/icons/sketchy_adjust.svg" alt="Menu" class="menu">
                       </a>
                       <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">
-                            <img src="images/icons/sketchy_adjust.svg" alt="Definitions" class="img-responsive menu_item">
-                            Definitions
-                        </a>
                         <a class="dropdown-item" href="#">
                             <img src="images/icons/sketchy_ask.svg" alt="FAQ" class="img-responsive menu_item">
                             FAQ
                         </a>
                         <a class="dropdown-item" href="#">
-                            <img src="images/icons/sketchy_send.svg" alt="Contact Us" class="img-responsive menu_item">
-                            Contact Us
-                        </a>
-                        <a class="dropdown-item" href="#">
                             <img src="images/icons/sketchy_pay.svg" alt="Donate to Us" class="img-responsive menu_item">
                             Donate to Us
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <img src="images/icons/sketchy_send.svg" alt="Contact Us" class="img-responsive menu_item">
+                            Contact Us
                         </a>
                         <a class="dropdown-item" href="#">
                             <img src="images/icons/sketchy_share.svg" alt="Share Us" class="img-responsive menu_item">
@@ -51,12 +50,20 @@
                     </li>
                 </ul>
             </div>
+
             <div class="offset-md-2 col-md-6 logo">
                 <img src="images/icons/sketchy_rain.svg" alt="logo" class="img-responsive logo">
-                DOOOOOOOOOOOOOOOOOOOOOOOOOOO
+                DOODLE WEATHER
             </div>
+
+            <div class="offset-md-2 col-md-1">
+                <input type="image" src="images/icons/sketchy_redo.svg" alt="Refresh" class="menu" id="refresh"/>
+            </div>
+        
         </div>
+
         <div class="row spacing-1">
+
             <div class="offset-md-2 col-md-2 todays_calendar">
                 <div class="row spacing-3">
                 <img src="images/icons/sketchy_schedule.svg" alt="Today" class="img-responsive todays_calendar">
@@ -67,28 +74,35 @@
                 20:00
                 </div>
             </div>
+
             <div class="col-md-4 text-center todays_temperature">
                 <img src="images/icons/sketchy_sleep.svg" alt="Today" class="img-responsive today">
                 <br>
                 <img src="images/icons/sketchy_warm.svg" alt="temperature" class="img-responsive todays_temperature">
-                    19ºC
+                <span class="temperature">19ºC</span>
                 <br>
                 <img src="images/icons/sketchy_locate.svg" alt="Current Location" class="img-responsive todays_calendar">
                 Lisbon
             </div>
+
             <div class="col-md-3 todays_values">
                 <div class="row spacing-4">
                     <img src="images/icons/sketchy_precipitate.svg" alt="Precipitation" class="img-responsive todays_values">
-                    Precipitation: 0%
+                    <span > Percipitation: </span>
+                    <span class="percipitation_value"> 0% </span>
                     <div class="w-100"></div>
                     <img src="images/icons/sketchy_cry.svg" alt="Humidity" class="img-responsive todays_values">
-                    Humidity: 84%
+                    <span> Humidity: </span>
+                    <span class="humidity_value"> 84% </span>
                     <div class="w-100"></div>
                     <img src="images/icons/sketchy_fall.svg" alt="Wind" class="img-responsive todays_values">
-                    Wind: 16Km/h
+                    <span> Wind: </span>
+                    <span class="wind_value"> 16 Km/h </span>
                 </div>
             </div>
+
         </div>
+
         <div class="row">
             <div class="offset-md-4 col-md-4">
                 <form class="form-inline md-form form-sm mt-0">
@@ -97,11 +111,13 @@
                 </form>
             </div>
         </div>
+
         <div class="row spacing-2">
             <div class="offset-md-4 col-md-4">
             <img src="images/dividers/divider2.svg" alt="Good Looking Divider" class="img-responsive">
             </div>
         </div>
+
         <div class="row week_forecast">
             <div class="col-md-2">
                 <p>
@@ -170,6 +186,7 @@
                 </p>
             </div>
         </div>
+
         <div class="row spacing-2">
             <div class="offset-md-4 col-md-4">
             <img src="images/dividers/divider2.svg" alt="Good Looking Divider" class="img-responsive">
@@ -190,6 +207,7 @@
             </div>
         </div>
     </div>
+
 </body>
 </html>
 
